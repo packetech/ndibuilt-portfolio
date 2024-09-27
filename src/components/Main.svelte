@@ -4,18 +4,21 @@
 
     let steps = [
         {
+            href: "https://ndibuilt-full-stack-ecommerce.netlify.app",
             name: "Fruit Shop",
             icon: "fa-solid fa-cart-shopping",
             description:
                 "Fruit Store is a Modern Full-Stack E-commerce App created with Next.js, TailwindCSS, Stripe & Zustand!",
         },
         {
+            href: "https://ndibuilt-todo.netlify.app",
             name: "Todo App",
             icon: "fa-solid fa-list-check",
             description:
                 "A todo app built with html, css & javascript",
         },
         {
+            href: "https://ndibuilt-fitness.netlify.app/",
             name: "Hulknormous",
             icon: "fa-solid fa-dumbbell",
             description:
@@ -52,12 +55,16 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Ndifreke</span> Okorie
-                <br />A Full Stack
-                <span class="poppins text-violet-400">Developer</span>
+                <p>
+                    Hi, <br />
+                    I'm <span class="poppins text-blue-400">Ndifreke</span> Okorie
+                    <br />Full Stack
+                    <span class="poppins text-blue-400">Developer</span>
+                    
+                </p>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes JavaScript
+                My <span class="text-blue-400"> favorite tech</span> includes JavaScript
                 (React, NEXT.JS, SvelteKit or Qwik), TailwindCSS, Node.js + Express.js & PostgreSQL
                 or Firebase/Firestore!
             </p>
@@ -65,7 +72,7 @@
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
             >
                 <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+                    class="absolute top-0 right-full w-full h-full bg-blue-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
                 />
                 <a href="mailto:ndi7@yahoo.co.uk?subject=We are interested in hiring you" class="relative z-9">Get in touch &rarr;</a>
                 <!-- <h4 class="relative z-9">Get in touch &rarr;</h4> -->
@@ -100,7 +107,7 @@
                 A few of my creative endeavors.
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-violet-400">see</span> my work?
+                Curious to <span class="poppins text-blue-400">see</span> my work?
             </h3>
         </div>
         <!--
@@ -117,31 +124,33 @@
             <Step step={steps[0]}>
                 <p>
                     Fruit Store is a Modern Full-Stack E-commerce App created with <strong
-                        class="text-violet-400"
+                        class="text-blue-400"
                         >Next.js, TailwindCSS, Stripe & Zustand!</strong
-                    > Zustand does global state management, Stripe API for all our product and transaction handling, and TailwindCSS to design and style our web app.
+                    > Zustand does global state management, Stripe API for all our product and transaction handling, and TailwindCSS to design and style our web app. ( Test checkout using dummy card info --> Visa-card#: 4000056655665556,  expiry: Any future date,  CVC: Any 3 digits ) .
+
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
                     Todo app is an easily to use self organizer <strong
-                        class="text-violet-400">HTML</strong
+                        class="text-blue-400">HTML</strong
                     >,
-                    <strong class="text-violet-400">CSS</strong
+                    <strong class="text-blue-400">CSS</strong
                     >
-                    & <strong class="text-violet-400">JavaScript</strong> CRUD application
+                    & <strong class="text-blue-400">JavaScript</strong> CRUD application
                     that allows a user manage a tidy and effective todo
                     list and persist this information in your device browser for some time.
+                    
                 </p>
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    Hulknormous is a <strong class="text-violet-400"
+                    Hulknormous is a <strong class="text-blue-400"
                         >React & TailwindCSS</strong
                     >
                     web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, to act as a
-                    <strong class="text-violet-400">challenging fitness app</strong>
+                    <strong class="text-blue-400">Netlify</strong>, to act as a
+                    <strong class="text-blue-400">challenging fitness app</strong>
                     used to train various parts of the body!
                 </p>
             </Step>
@@ -153,13 +162,13 @@
     >
         <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
         <div
-            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-blue-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-blue-700 py-4"
         >
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Want to know more?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> me.
+                A bit <span class="poppins text-blue-400">about</span> me.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -198,20 +207,20 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
+            The <span class="text-blue-400">Complete</span> Package
         </h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >
-            <table class="bg-white text-slate-700 rounded text-center">
-                <thead class={"border-b border-solid border-slate-200  "}>
+            <table class="bg-white text-stone-700 rounded text-center">
+                <thead class={"border-b border-solid border-stone-200  "}>
                     <tr class="">
                         <th />
                         <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
                         <th
-                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
+                            class="bg-blue-700 text-white whitespace-nowrap p-4 px-8"
                             >Me</th
                         >
                     </tr>
@@ -222,19 +231,19 @@
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
                             >Dedication</td
                         >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+                        <td><i class="fa-solid fa-check text-stone-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-stone-500" /></td>
                         <td><i class="fa-solid fa-check text-green-500" /></td>
                     </tr>
-                    <tr class="border-b border-solid border-slate-200">
+                    <tr class="border-b border-solid border-stone-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
                             >Critical/Analytic Thinking</td
                         >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+                        <td><i class="fa-solid fa-check text-stone-500" /></td>
+                        <td><i class="fa-solid fa-check text-stone-500" /></td>
                         <td><i class="fa-solid fa-check text-green-500" /></td>
                     </tr>
                     <tr>
@@ -242,19 +251,19 @@
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
                             >Interpersonal Skills</td
                         >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-stone-500" /></td>
+                        <td><i class="fa-solid fa-check text-stone-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-stone-500" /></td>
                         <td><i class="fa-solid fa-check text-green-500" /></td>
                     </tr>
-                    <tr class="border-t border-solid border-slate-200">
+                    <tr class="border-t border-solid border-stone-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
                             >Progamming Abilities</td
                         >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-stone-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-stone-500" /></td>
+                        <td><i class="fa-solid fa-check text-stone-500" /></td>
                         <td><i class="fa-solid fa-check text-green-500" /></td>
                     </tr>
                 </tbody>
