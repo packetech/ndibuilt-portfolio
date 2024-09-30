@@ -7,9 +7,13 @@
 	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
 		integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     -->
+	<script src="src/lib/particles.js">
+		
+	</script>
 	
 	<script src="src/lib/bvambient.js"></script>
 
@@ -31,11 +35,11 @@
 	<div style="display: contents" class="relative z-[1]">%sveltekit.body%</div>
 
 	<div class="absolute min-h-screen top-0 left-0 w-full z-[-1] opacity-70">
-		<!-- <div id="particles-js" class="absolute inset-0" /> -->
-		<div id="ambient"></div>
+		<div id="particles-js" class="absolute inset-0" />
+		<!-- <div id="ambient"></div> -->
 	</div>
 	<script>
-		particlesJS.load("particles-js", "assets/particles.json", function () {
+		particlesJS.load("particles-js", "assets/particlesjs-config.json", function () {
 			console.log("callback - particles.js config loaded");
 		});
 	</script>
@@ -47,9 +51,9 @@
 			  	fps: 60,
 			  	max_transition_speed: 12000,
 			 	 min_transition_speed: 8000,
-			  	particle_number: 30,
-			  	particle_maxwidth: 20,
-			  	particle_minwidth: 10,
+			  	particle_number: 20,
+			  	particle_maxwidth: 30,
+			  	particle_minwidth: 30,
 			  	particle_radius: 50,
 			  	particle_opacity: true,
 			  	particle_colision_change: true,
