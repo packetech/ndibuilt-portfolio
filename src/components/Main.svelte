@@ -147,7 +147,7 @@
                     >
                     & <strong class="text-blue-400">JavaScript</strong> CRUD application
                     that allows a user manage a tidy and effective todo
-                    list and persist this information in your device browser for some time.
+                    list and persist or store this information in the device browser local storage for easy retrieval.
                     
                 </p>
             </Step>
@@ -159,7 +159,7 @@
                     web application, hosted on
                     <strong class="text-blue-400">Netlify</strong>, to act as a
                     <strong class="text-blue-400">challenging fitness app</strong>
-                    used to train various parts of the body.
+                    used to train various parts of the body to achieve fitness objective. And this caters for all experience and difficulty levels.
                 </p>
             </Step>
         </div>

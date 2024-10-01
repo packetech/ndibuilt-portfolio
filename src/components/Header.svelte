@@ -5,7 +5,7 @@
     export let tabs = [
         { name: "Projects ", link: "#projects" },
         { name: "About me", link: "#about" },
-        //{ name: "Blog", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
+        { name: "Resume", link: "https://rawcdn.githack.com/packetech/Resume/f1dbd2b88cd1f19778d74fc66968509cfc872386/Ndifreke-Okorie-Resume_Software%20Developer.pdf" },
         // { name: "Contact", link: "" },
         // {name: '', link: ''},
     ];
