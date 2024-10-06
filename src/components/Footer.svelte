@@ -43,5 +43,6 @@
                 ></a
             >
         </p>
+        <p class="px-3 py-0.5 bg-white text-slate-950 font-medium text-xs rounded">#ndibuilt web portfolio with SvelteKit & TailwindCSS</p>
     </div>
 </footer>
