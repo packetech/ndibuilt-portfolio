@@ -19,7 +19,7 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <b class="font-bold poppins">Ndifreke</b> <span class="">Okorie <br/><a class="grid justify-items-center bg-sky-200 text-[black] font-medium text-xs rounded" href="https://rawcdn.githack.com/packetech/Resume/f1dbd2b88cd1f19778d74fc66968509cfc872386/Ndifreke-Okorie-Resume_Software%20Developer.pdf" target="_blank">Resume</a></span>
+        <b class="font-bold poppins">Ndifreke</b> <span class="">Okorie <br/><a class="grid justify-items-center bg-sky-200 text-[black] font-medium text-xs rounded" href="https://rawcdn.githack.com/packetech/Resume/10e966a3970f51a2bc078276d8fc1fbefcf5e41c/Ndifreke-Okorie-Resume_Software%20Developer.pdf" target="_blank">Resume</a></span>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
