@@ -40,12 +40,12 @@ const Main = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       description: "Communication is key and it's my core value. I believe in transparent and constructive communication. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team."
     }
   ];
-  return `<main class="flex flex-col flex-1 p-4"><section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14" data-svelte-h="svelte-1r4fgne"><div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"><h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl"><p>Hi, <br>
+  return `<main class="flex flex-col flex-1 p-4"><section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14" data-svelte-h="svelte-1hpkjkz"><div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"><h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl"><p>Hi, <br>
                     I&#39;m <span class="poppins text-blue-400">Ndifreke</span> Okorie
                     <br>Full Stack
                     <span class="poppins text-blue-400">Developer</span></p></h2> <p class="text-base sm:text-lg md:text-xl">My <span class="text-blue-400">tech stack</span> includes JavaScript
                 (React, NEXT.JS, SvelteKit or Qwik), TailwindCSS, Node.js + Express.js &amp; PostgreSQL
-                or Firebase/Firestore!</p> <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"><div class="absolute top-0 right-full w-full h-full bg-blue-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div> <a href="mailto:ndi7@yahoo.co.uk?subject=We are interested in hiring you" class="relative z-9">Get in touch →</a> </button></div> <div class="relative shadow-2xl grid place-items-center"><img${add_attribute("src", "images/profile.png", 0)} alt="Zetane Engine" class="object-cover z-[2] max-h-[70vh] rounded-full"></div> </section> <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects"><div class="flex flex-col gap-2 text-center" data-svelte-h="svelte-1or7elc"><h6 class="text-large sm:text-xl md:text-2xl">A few of my creative endeavors.</h6> <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Curious to <span class="poppins text-blue-400">see</span> my work?</h3></div>  <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">${validate_component(Step, "Step").$$render($$result, { step: steps[0] }, {}, {
+                or Firebase/Firestore. Python (AI, ML and Analytics)!</p> <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"><div class="absolute top-0 right-full w-full h-full bg-blue-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div> <a href="mailto:ndi7@yahoo.co.uk?subject=We are interested in hiring you" class="relative z-9">Get in touch →</a> </button></div> <div class="relative shadow-2xl grid place-items-center"><img${add_attribute("src", "images/profile.png", 0)} alt="Zetane Engine" class="object-cover z-[2] max-h-[70vh] rounded-full"></div> </section> <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects"><div class="flex flex-col gap-2 text-center" data-svelte-h="svelte-1or7elc"><h6 class="text-large sm:text-xl md:text-2xl">A few of my creative endeavors.</h6> <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">Curious to <span class="poppins text-blue-400">see</span> my work?</h3></div>  <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">${validate_component(Step, "Step").$$render($$result, { step: steps[0] }, {}, {
     default: () => {
       return `<p class="text-left" data-svelte-h="svelte-1bu1xg1">Fruit Store is a Modern Full-Stack E-commerce App created with <strong class="text-blue-400">Next.js, TailwindCSS, Stripe &amp; Zustand!</strong> Zustand does global state management, Stripe API for all our product and transaction handling, and TailwindCSS to design and style our web app. <br> <br>
                    
@@ -56,19 +56,19 @@ const Main = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     }
   })} ${validate_component(Step, "Step").$$render($$result, { step: steps[1] }, {}, {
     default: () => {
-      return `<p class="text-left" data-svelte-h="svelte-ggzple">Todo app is an easily to use self organizer <strong class="text-blue-400">HTML</strong>,
+      return `<p class="text-left" data-svelte-h="svelte-1qh4u7b">Todo app is an easily to use self organizer <strong class="text-blue-400">HTML</strong>,
                     <strong class="text-blue-400">CSS</strong>
                     &amp; <strong class="text-blue-400">JavaScript</strong> CRUD application
                     that allows a user manage a tidy and effective todo
-                    list and persist this information in your device browser for some time.</p>`;
+                    list and persist or store this information in the device browser local storage for easy retrieval.</p>`;
     }
   })} ${validate_component(Step, "Step").$$render($$result, { step: steps[2] }, {}, {
     default: () => {
-      return `<p class="text-left" data-svelte-h="svelte-163b78q">Hulknormous is a <strong class="text-blue-400">React &amp; TailwindCSS</strong>
+      return `<p class="text-left" data-svelte-h="svelte-p3urkj">Hulknormous is a <strong class="text-blue-400">React &amp; TailwindCSS</strong>
                     web application, hosted on
                     <strong class="text-blue-400">Netlify</strong>, to act as a
                     <strong class="text-blue-400">challenging fitness app</strong>
-                    used to train various parts of the body.</p>`;
+                    used to train various parts of the body to achieve fitness objective. And this caters for all experience and difficulty levels.</p>`;
     }
   })}</div></section> <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"> <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-blue-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-blue-700 py-4" data-svelte-h="svelte-m2n648"><h6 class="text-large sm:text-xl md:text-2xl">Want to know more?</h6> <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="poppins text-blue-400">about</span> me.</h3></div> <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl" data-svelte-h="svelte-1q8im4p">I am . . .</p> <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">${each(benefits, (benefit, index) => {
     return ` <div class="flex gap-6 sm:gap-8"><p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">0${escape(index + 1)}</p> <div class="flex flex-col gap-6 sm:gap-8"><h3 class="text-2xl sm:text-3xl md:text-5xl">${escape(benefit.name)}</h3> <p>${escape(benefit.description)}</p></div> </div>`;
