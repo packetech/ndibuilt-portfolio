@@ -222,7 +222,7 @@
                 <span class="text-blue-400 text-lg"><b>Mini Bio</b></span>
             </p>
             <p>
-                I am a prolific software developer, ICT Infrastructure engineer and data Analyst. <br /><br />
+                I am a prolific software developer, ICT Infrastructure and data Analytics engineer. <br /><br />
                 With about two and a half  decades professional core ICT Infrastructure /service deployments. Plus big data analytics and full stack software development. Having a bachelors in physics, post grad in AI & machine learning and M'Engr in big data analytics, I am an ardent learner. <br /><br />
                 I easily transition, have a steep learning curve for new tech stacks and a pro-active and unyielding spirit in the face of challenges. Yet a very selfless team player and communication addict. 
             </p>

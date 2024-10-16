@@ -19,7 +19,7 @@
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <b class="font-bold poppins">Ndifreke</b> <span class="">Okorie <br/><a class="grid justify-items-center bg-sky-200 text-[black] font-medium text-xs rounded" href="assets/Ndifreke-Okorie-Resume_Software_Developer.pdf" target="_blank">Resume</a></span>
+        <b class="font-bold poppins">Ndifreke</b> <span class="">Okorie <br/><a class="grid justify-items-center bg-sky-200 text-[black] font-medium text-xs rounded" href="assets/Ndifreke-Okorie-Resume_Software_Developer2.pdf" target="_blank">Resume</a></span>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
